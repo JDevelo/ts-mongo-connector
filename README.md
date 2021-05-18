@@ -4,7 +4,7 @@
  ## Setup
 
  ```typescript
- import mongoConnect from 'ts-monogo-connector'
+ import mongoConnect from 'ts-mongo-connector'
 
  const client: mongoConnect = new mongoConnect()
 
