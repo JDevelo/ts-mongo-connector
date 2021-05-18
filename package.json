@@ -1,11 +1,11 @@
 {
   "name": "ts-mongo-connector",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "src/Client.ts",
   "author": "Jdevdisc <69683068+JDevelo@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node src/test/test.ts"
+    "start": "ts-node src/Client.ts"
   },
   "devDependencies": {
     "ts-node": "^9.1.1",
