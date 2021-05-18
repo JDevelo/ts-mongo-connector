@@ -14,6 +14,8 @@
   },
   "dependencies": {
     "@types/node": "^15.3.0",
+    "chalk": "^4.1.1",
     "mongoose": "^5.12.9"
-  }
+  },
+  "keywords": ["ts", "typescript-mongo", "mongodb", "mongoose", "ts-mongodb", "ts-mongo", "ts-mongoose"] 
 }

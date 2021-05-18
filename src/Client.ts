@@ -6,7 +6,11 @@ export default class mongoConnect {
     /**
      * mongoose
      */
-    public mongoose;
+    public mongoose; 
+    /**
+     * Chalk
+     */
+    public chalk
     constructor(ops = {
         database: null
     }) {
@@ -15,6 +19,10 @@ export default class mongoConnect {
          * Requires mongoose
          */
         this.mongoose = require('mongoose');
+        /**
+         * Requires chalk
+         */
+        this.chalk = require('chalk')
     }
     c(database?: String) {
         /**
@@ -26,7 +34,7 @@ export default class mongoConnect {
             useNewUrlParser: true
         })
         this.mongoose.connection.on('connected', async () => {
-            console.log('test')
+            console.log(this.chalk.green('The mongoose database is now connceted'))
         })
     }
 }
