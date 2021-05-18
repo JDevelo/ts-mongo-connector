@@ -1,7 +1,7 @@
 {
   "name": "ts-mongo-connector",
-  "version": "1.0.0",
-  "main": "src/test/test.ts",
+  "version": "1.0.2",
+  "main": "src/Client.ts",
   "author": "Jdevdisc <69683068+JDevelo@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
@@ -17,5 +17,13 @@
     "chalk": "^4.1.1",
     "mongoose": "^5.12.9"
   },
-  "keywords": ["ts", "typescript-mongo", "mongodb", "mongoose", "ts-mongodb", "ts-mongo", "ts-mongoose"] 
+  "keywords": [
+    "ts",
+    "typescript-mongo",
+    "mongodb",
+    "mongoose",
+    "ts-mongodb",
+    "ts-mongo",
+    "ts-mongoose"
+  ]
 }
