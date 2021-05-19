@@ -4,12 +4,9 @@
   "main": "src/Client.ts",
   "author": "Jdevdisc <69683068+JDevelo@users.noreply.github.com>",
   "license": "MIT",
-  "files": [
-    "dist/**/*"
-  ],
+  "types": "dist/Client.d.ts",
   "scripts": {
     "start": "ts-node src/Client.ts",
-    "types": "dist/Client.d.ts",
     "build": "tsc"
   },
   "devDependencies": {
