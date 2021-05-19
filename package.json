@@ -5,7 +5,8 @@
   "author": "Jdevdisc <69683068+JDevelo@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node src/Client.ts"
+    "start": "ts-node src/Client.ts",
+    "build": "tsc"
   },
   "devDependencies": {
     "ts-node": "^9.1.1",
@@ -15,7 +16,8 @@
   "dependencies": {
     "@types/node": "^15.3.0",
     "chalk": "^4.1.1",
-    "mongoose": "^5.12.9"
+    "mongoose": "^5.12.9",
+    "node-fetch": "^2.6.1"
   },
   "keywords": [
     "ts",
@@ -25,5 +27,6 @@
     "ts-mongodb",
     "ts-mongo",
     "ts-mongoose"
-  ]
+  ],
+  "repository": "https://github.com/JDevelo/ts-mongo-connector.git"
 }

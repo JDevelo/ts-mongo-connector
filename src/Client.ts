@@ -12,9 +12,9 @@ export default class mongoConnect {
      */
     public chalk
     constructor(ops = {
-        database: null
+        database: null as any
     }) {
-        this.database = ops.database;
+     this.database = ops.database
         /**
          * Requires mongoose
          */
