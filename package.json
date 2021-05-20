@@ -1,6 +1,6 @@
 {
   "name": "ts-mongo-connector",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "main": "dist/index.js",
   "author": "Jdevdisc <69683068+JDevelo@users.noreply.github.com>",
   "license": "MIT",
@@ -30,5 +30,7 @@
     "ts-mongoose"
   ],
   "repository": "https://github.com/JDevelo/ts-mongo-connector.git",
-  "contributors": ["Colderry"]
+  "contributors": [
+    "Colderry"
+  ]
 }
