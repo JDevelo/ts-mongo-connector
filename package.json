@@ -29,5 +29,6 @@
     "ts-mongo",
     "ts-mongoose"
   ],
-  "repository": "https://github.com/JDevelo/ts-mongo-connector.git"
+  "repository": "https://github.com/JDevelo/ts-mongo-connector.git",
+  "contributors": ["Colderry"]
 }
