@@ -14,7 +14,7 @@
 ## Setup For JavaScript
 
 ```javascript
-const { MongoConnectt } = require("ts-mongo-connector");
+const { MongoConnect } = require("ts-mongo-connector");
 
 const client = new MongoConnect()
 client.c("database url")
